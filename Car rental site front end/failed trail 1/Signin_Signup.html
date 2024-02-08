@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="Signin_Signup.css">
+        <script src="Signup_Signin.js"></script>
+    </head>
+    <body>
+        
+        <!--Creating a Container-->
+        <div class="container" id="container">
+            <!--creating a form container under main container-->
+            <div class="form-container signup-container">
+
+                <!---Creating Sign up form-->
+                <form action="#">
+                    <h1>Create Account</h1>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="E-mail">
+                    <input type="password" placeholder="password">
+                    <button>Sign up</button>
+                </form>
+            </div>
+            <div class="form-container signin-container">
+
+                <!---Creating Sign in Form-->
+                <form accept="#">
+                    <h1>Sign in</h1>
+                    <input type="email" placeholder="E-mail">
+                    <input type="password" name="password">
+                    <a href="#">Forgot your password?</a>
+                    <button>Sign in</button>
+                </form>
+
+                <!--End of form-container-->
+            </div>
+
+            <!--Creating an overlay Container-->
+        <div class="Overlay-Container">
+            <div class="Overlay">
+                
+                <!---Overlay left panel-->
+                <div class="Overlay-panel Overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To continue please Login with us</p>
+                    <button class="invisible" id="Sign_in">Sign in</button>
+                </div>
+
+
+                <!---Overlay right panel-->
+                <div class="Overlay-panel Overlay-right">
+                    <h1>Hey Buddy!</h1>
+                    <p>looking for a car?</p>
+                    <button class="invisible" id="Sign_up">Sign Up</button>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

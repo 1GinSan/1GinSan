@@ -1,0 +1,20 @@
+body {
+    background: url(garage.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.mainbox {
+    display:flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    background-color: hotpink;
+    margin: 140px 70px;
+    width: 75%;
+    border: 3px lightblue;
+    align-content: center;
+    padding: 10px;
+    opacity: 75%;
+}
+
+

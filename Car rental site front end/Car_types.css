@@ -1,0 +1,72 @@
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+  
+  background-image: url("garageimg.jpeg");
+
+  margin: 0%;
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+    margin: 0;
+}
+/*grid layout*/
+
+.type-grid {
+    padding: 150px;
+}
+.type-grid a {
+    background: #ffffff;
+    display:inline-table;
+    margin: 100px 100px 100px 100px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    /*use of transitions*/
+    transition: all .20s linear;
+    z-index: 0;
+    position:relative;
+  }
+  .type-grid a:after {
+    color: #333;
+    font-size: 25px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+  }
+  .type-grid img {
+    display:grid;
+    width: 300px;
+    height: 300px;
+  }
+
+  /*RgBA color used here*/
+  .type-grid a:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+
+  }
+
+  .img {
+    opacity: 0.5;
+  }
+
+  .img:hover {
+    opacity: 1.5;
+  }

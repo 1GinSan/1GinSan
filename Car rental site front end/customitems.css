@@ -1,0 +1,20 @@
+pre{
+    margin: 15%;
+    padding: auto;
+    width: 200px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 125%;
+    color: white;
+}
+
+html{
+    background-color: black;
+}
+
+header h1{
+    overflow: hidden;
+    color: greenyellow;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+
+}

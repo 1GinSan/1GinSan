@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="login.css">
+        <script src="login.js"></script>
+        <script src="ms1.js"></script>
+        
+    </head>
+    <body>
+        <main>
+        <div class="mainbox">
+            <div class="login_sigup panel">
+                <div class="login_box" id="login_box">
+                    <input type="text" placeholder="Name">
+                    <input type="password" placeholder="password">
+                    <button id="Login">Sign in</button>
+                    <a href="#">Forgot password</a>
+                </div>
+
+                
+
+                <div hidden="hidden" class="Signup_box" id="Signup_box">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="password">
+                    <button id="Login">Sign in</button>
+                </div>
+            </div>
+
+            <div class="overlay_panel">
+                <div hidden class="logintext" id="logintext">
+                    <pre>
+                        Already Have an Account?
+                    </pre>
+                    <button onclick="logup()" id="Login">Log in</button>
+                </div>
+
+                <div class="signuptext" id="signuptext">
+                    <pre>Hey,
+                        Wanna create a new account? 
+                    </pre>
+                    <button onclick="signup()" id="Sign_up">Create Account</button>
+                </div>
+
+            </div>
+
+            <nav id="nav">
+                <div id="nav-links">
+                    <a class="nav-link" href="#">
+                        <h2 class="nav-link-label rubik-font"><a href="Login_up_page.html">Home</a></h2>
+                        <img class="nav-link-image" src="ms1_home.jpg">
+                    </a>
+                </div>
+                <div id="nav-links">
+                    <a class="nav-link" href="#">
+                        <h2 class="nav-link-label rubik-font">About us</h2>
+                       <img class="nav-link-image" src="ms1_aboutus.jpg">
+                    </a>
+                </div>
+                <div id="nav-links">
+                    <a class="nav-link" href="#">
+                        <h2 class="nav-link-label rubik-font">Contact us</h2>
+                        <img class="nav-link-image" src="ms1_contactus.jpg">
+                    </a>
+                </div>
+                <div id="nav-links">
+                    <a class="nav-link" href="#">
+                        <h2 class="nav-link-label rubik-font">Select Car</h2>
+                        <img class="nav-link-image" src="ms1_selectcar.jpg">
+                    </a>
+                </div>
+            </nav>
+            
+        </main>
+
+            
+        <button id="nav-toggle" type="button" onclick="toggleNav()">
+            <i class="open fa-light fa-bars-staggered"></i>
+            <i class="close fa-light fa-xmark-large"></i>
+          </button>
+
+        </div>
+    </body>
+</html>

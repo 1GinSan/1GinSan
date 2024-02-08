@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="GinSan">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon"  href="iconimg.png"  type = "image/x-icon">
+        <title>RcarRentals</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="nav.css">
+        
+    </head>
+
+    <body>
+        <header></header>
+        
+        <video autoplay loop id="myVideo">
+            <source src="indexvideo.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+
+
+          
+          <div class="content">
+            <img src="logo.png" alt="logo">
+            <h1>RankCarRentals</h1>
+            <p>Get your car today</p>
+            <button id="myBtn" type="button" onclick="myFunction()">Pause</button>
+            <button id="Accountbtn"><a href=Account.html>Account</a></button>
+          </div>
+
+          <script>
+            var video = document.getElementById("myVideo");
+            var btn = document.getElementById("myBtn");
+            
+            function myFunction() {
+              if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+              } else {
+                video.pause();
+                btn.innerHTML = "Play";
+              }
+            }
+            </script>
+    </body>
+</html>
